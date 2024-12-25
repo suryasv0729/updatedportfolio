@@ -28,6 +28,7 @@ import {
   visionstream,
   threejs,
   oxford,
+  regexie,
 } from "../assets";
 
 export const navLinks = [
@@ -94,11 +95,6 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
 ];
 
 const experiences = [
@@ -109,13 +105,14 @@ const experiences = [
     iconBg: "#fff",
     date: "May 2024 - Present",
     points: [
-      "Data Source Identification: Identify relevant data sources where lead information can be gathered. This includes databases, social media platforms, public records, and other online sources.",
+      "Data Analysis: Analyzing the lead data ",
+      "Data Cleaning: Ensuring that the scraped data is accurate, removing duplicates, correcting errors, and formatting it consistently for use in the lead intelligence model.",
 
-      "Data Extraction: Develop and implement data extraction processes to gather lead information from identified sources. This  involve web scraping or data feeds from third-party providers.",
+      "Data Enrichment: Enhancing the existing lead data by adding more relevant information to make the leads more valuable for analysis and decision-making",
 
-      "Data Cleaning and Validation: Cleanse and validate lead data to ensure accuracy, completeness, and consistency. This involves standardizing formats, removing duplicates, and verifying data against trusted sources.",
+      "Schema Writing: writing schemas that extract the data effectively",
 
-      "Enrichment and Enhancement: Enhance lead profiles by appending additional data attributes such as job titles, company details, contact information, social media profiles, industry insights, and firmographic data.",
+      "Collaboration with Teams: Working with other teams (like developers and product managers) to ensure that the data cleaning, enrichment, and analysis processes align with the overall goals of the lead intelligence tool.",
     ],
   },
   {
@@ -126,7 +123,7 @@ const experiences = [
     date: "Jul 2022 - Apr 2024",
     points: [
       "Collaborated with cross-functional teams including  product manager, and other developers to achieve high-quality data.",
-      "Specialized in footprint collection,a technique that utilizes web page inspection to identify and analyze the technology stack used by various  websites and applications",
+      "Schema Writing: writing schemas that extract the data effectively, ensuring that it can be processed, stored, and queried efficiently across various systems.",
       "Utilized data augmentation techniques to enhance data quality and relevance. Gained expertise in datahandling, including analysis, cleaning, collection, manipulation, and enhancement",
     ],
   },
@@ -171,6 +168,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Regexie",
+    description:
+      "Regexie is a user-friendly regex generator and editor that helps non-technical users create and understand regular expressions. It uses Google's Gemini AI to generate patterns based on user inputs and integrates the CodeMirror editor for real-time testing.",
+    tags: [
+      {
+        name: "js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: regexie,
+    source_code_link: "https://github.com/suryasv0729/RegexaiGenerator",
+    live_link: "https://regexie.netlify.app/",
+  },
+  {
     name: "VisionStream",
     description:
       "VisionStream a YouTube clone using react. integrated YouTube data API for real-time video and channel data.Implemented hand gesture controls with Handtrack.js for a unique user experience.",
@@ -193,32 +212,6 @@ const projects = [
     live_link: "https://visionstream.netlify.app/",
   },
 
-  {
-    name: "Oxford Site",
-    description:
-      "A university website with testimonals ,gallery,CTAs etc. built using react and plain css.completely responsive to all screen sizes.used web3 froms to get data from forms to admin mailbox.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "web3forms",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: oxford,
-    source_code_link: "https://github.com/suryasv0729/universitywebsitereact",
-    live_link: "https://oxfordsite.netlify.app/",
-  },
   {
     name: "CookMate",
     description:

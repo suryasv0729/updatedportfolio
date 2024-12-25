@@ -34,7 +34,7 @@ import tripguide from "./tripguide.png";
 import visionstream from "./visionstream.png";
 import cookmate from "./cookmate.png";
 import oxford from "./oxford.png";
-
+import regexie from "./regexie.png";
 export {
   logo,
   backend,
@@ -69,4 +69,5 @@ export {
   visionstream,
   cookmate,
   oxford,
+  regexie,
 };
